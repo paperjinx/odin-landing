@@ -4,8 +4,15 @@
 
 .footer, .hero-main, .header{
     background-color: #1F2937;
-    display: flex;
+    
 
+}
+
+.hero-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
 }
 
 h1{
