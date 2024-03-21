@@ -11,12 +11,21 @@
 .hero-main{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    
+    align-content: center;
     flex-wrap: wrap;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
+.quote{
+    background-color: #cdc7c7;
+    padding: 60px;
+    font-style: italic;
+    font-size: 16px;
+}
 h1{
     font-size: 48px;
     font-weight: bold;
@@ -34,4 +43,11 @@ button{
 img{
     width: 400px;
     height: 200px;
+}
+.sq1, .sq2, .sq3, .sq4{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    
 }
